@@ -74,4 +74,4 @@ SELECT sale_month, total_revenue, LAG(total_revenue) OVER (ORDER BY sale_month) 
 
 ![sales_data](images/monthly_revenue.png)
 
-![sales_data](images/monthly_revenue.png)
+![sales_data](images/month_on_month_growth.png)
