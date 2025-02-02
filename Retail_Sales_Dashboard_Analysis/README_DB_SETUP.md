@@ -40,6 +40,9 @@ docker exec -it mysql mysql -u root -p
 To setup the MySQL database, run the following command in your terminal:
 
 ```SQL
+--- Create the DB
+CREATE DATABASE mock_kaggle;
+
 --- Use the DB
 USE mock_kaggle;
 
