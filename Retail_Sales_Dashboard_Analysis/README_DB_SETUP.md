@@ -71,3 +71,7 @@ SELECT sale_month, total_revenue, LAG(total_revenue) OVER (ORDER BY sale_month) 
 ![month_on_month_revenue](images/month_on_month_revenue.png)
 
 ### Output from Python
+
+![sales_data](images/monthly_revenue.png)
+
+![sales_data](images/monthly_revenue.png)
